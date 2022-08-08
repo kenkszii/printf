@@ -8,7 +8,7 @@
  * @flags:  Calculates active flags
  * @width: get width
  * @precision: Precision specification
- * @size: Size specifiers
+ * @size: Size specifier
  * Return: Number of chars printed.
  */
 int print_unsigned(va_list types, char buffer[],
@@ -159,3 +159,5 @@ int print_hexa(va_list types, char map_to[], char buffer[],
 
 	return (write_unsgnd(0, i, buffer, flags, width, precision, size));
 }
+Footer
+
